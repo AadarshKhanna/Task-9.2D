@@ -1,0 +1,124 @@
+/* SubscriptionPage.css */
+
+/* Base styles for the entire page */
+.subscription-page {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Header styles */
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Container for subscription plans */
+.subscription-plans {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Individual subscription plan cards */
+.subscription-plan {
+  width: 300px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.subscription-plan h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #ddd;
+}
+
+.subscription-plan p {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+/* Hover effect for the cards */
+.subscription-plan:hover {
+  transform: scale(1.05);
+  background-color: #3498db;
+  color: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.free-plan {
+  background-color: #922ebf; /* Change to violet purple color */
+  border-color: #673bb7; /* Darker border color */
+}
+
+/* Specific styles for the Premium Plan card */
+.premium-plan {
+  background-color: #642f67; /* Change to violet purple color */
+  border-color: #673bb7; /* Darker border color */
+}
+
+/* Specific styles for the Student Plan card */
+.student-plan {
+  background-color: #FDD835;
+  border-color: #FBB824;
+}
+
+/* Specific styles for the Teacher Plan card */
+.teacher-plan {
+  background-color: #FF5722;
+  border-color: #E64A19;
+}
+
+/* Text color for plan titles */
+.free-plan h2, .premium-plan h2, .student-plan h2, .teacher-plan h2 {
+  color: #fff;
+}
+.subscription-plan img {
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  height: auto; /* Maintain the aspect ratio */
+  margin: 10px 0; /* Add some spacing below the image */
+}
+
+/* Buy button styles */
+.buy-button {
+  display: block;
+  margin: 15px 0;
+  padding: 10px 20px;
+  background-color: #3498db; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+  background-color: silver; /* Darker blue on hover */
+}
+
+/* Price styles */
+.subscription-plan p.price {
+  font-size: 24px; /* Increased font size */
+  font-weight: bold;
+  color: #fff; /* Dark text color */
+  margin: 10px 0;
+}
+
+.features {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove padding */
+}
+
+.features li {
+  font-size: 16px;
+  color: #fff; /* White text color */
+  margin: 5px 0; /* Adjust margin to control the spacing between features */
+}

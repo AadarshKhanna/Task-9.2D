@@ -1,0 +1,44 @@
+/* CompletionPage.css */
+
+/* Base styles for the entire page */
+.completion-page {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styles */
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Text styles */
+p {
+  font-size: 18px;
+  color: #666;
+  margin: 10px 0;
+}
+
+/* Continue button styles */
+.continue-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.continue-button:hover {
+  background-color: #2971b6; /* Darker blue on hover */
+}
